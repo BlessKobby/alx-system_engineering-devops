@@ -21,3 +21,4 @@ This file contains a script that does the following:
 
 #### [6-firstdirectory](6-firstdirectory)
 This file contains a script that creates the directory 'my_first_directory' in the directory 'tmp'.
+
