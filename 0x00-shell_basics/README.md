@@ -20,5 +20,5 @@ This file contains a script that does the following:
 	3. Displays hidden files (starting with .)
 
 #### [6-firstdirectory](6-firstdirectory)
-This file contains a script that creates the directory 'my_first_directory' in the directory 'tmp'.
+This file contains a script the create the my_first_directory in the tmp directory
 
