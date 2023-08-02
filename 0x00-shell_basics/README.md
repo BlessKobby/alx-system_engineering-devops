@@ -12,3 +12,11 @@ This file contains a script that list the contents of the current working direct
 
 #### [4-listmorefiles](4-listmorefiles)
 This file contains a script that list all the content of the current working directory, including hidden files starting with "." in a long format.
+
+#### [5-listfilesdigitonly](5-listfilesdigitonly)
+This file contains a script that does the following:
+	1. Displays Long format
+	2. Displays with user and group IDs numerically
+	3. Displays hidden files (starting with .)
+
+
