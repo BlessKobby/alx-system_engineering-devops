@@ -10,4 +10,5 @@ This file contains a script that changes the current working directory to home.
 #### [3-listfiles](3-listfiles)
 This file contains a script that list the contents of the current working directory in long format.
 
-
+#### [4-listmorefiles](4-listmorefiles)
+This file contains a script that list all the content of the current working directory, including hidden files starting with "." in a long format.
