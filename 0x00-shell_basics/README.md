@@ -19,4 +19,5 @@ This file contains a script that does the following:
 	2. Displays with user and group IDs numerically
 	3. Displays hidden files (starting with .)
 
-
+#### [6-firstdirectory](6-firstdirectory)
+This file contains a script that creates the directory 'my_first_directory' in the directory 'tmp'.
