@@ -10,10 +10,10 @@ apt-get -y install haproxy
 # edit config file
 server_config=\
 "
-frontend  ybbok-frontend
+frontend  ybbok_frontend
         bind *:80
         mode http
-        default_backend ybbok-backend
+        default_backend ybbok_backend
 backend ybbok-backend
         balance roundrobin
         server 492192-web-01 34.204.81.159:80 check
