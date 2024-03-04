@@ -5,7 +5,7 @@
 # Make sure that HAProxy can be managed via an init script
 # Install and configure HAproxy on my lb-01 server.
 sudo apt-get -y update
-apt-get -y install haproxy
+sudo apt-get -y install haproxy
 
 # edit config file
 server_config=\
@@ -14,7 +14,7 @@ frontend  ybbok_frontend
         bind *:80
         mode http
         default_backend ybbok_backend
-backend ybbok-backend
+backend ybbok_backend
         balance roundrobin
         server 492192-web-01 34.204.81.159:80 check
         server 492192-web-02 54.90.12.251:80 check
