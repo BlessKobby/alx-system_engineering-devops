@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script to auto log in to web-01.
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@34.204.81.159
