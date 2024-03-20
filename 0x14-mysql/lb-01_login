@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# A script to auto log in to lb-01.
+
+eval $("ssh-agent")
+
+ssh-add ~/.ssh/school
+
+ssh ubuntu@54.175.36.212
